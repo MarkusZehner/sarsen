@@ -1,6 +1,6 @@
 # Differences to bopen/sarsen
 added the DEM-oversampling from pull request #34.
-
+sim_beta can be supplied to the geocoding to use instead of calculating new.
 
 # Sarsen
 
