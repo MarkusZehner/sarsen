@@ -1,3 +1,7 @@
+# Differences to bopen/sarsen
+added the DEM-oversampling from pull request #34.
+
+
 # Sarsen
 
 Algorithms and utilities for Synthetic Aperture Radar (SAR) sensors.

@@ -171,7 +171,7 @@ def terrain_correction(
         correct_radiometry: Optional[str] = None,
         interp_method: xr.core.types.InterpOptions = "nearest",
         grouping_area_factor: Tuple[float, float] = (1.0, 1.0),
-        oversampling: Tuple[float, float] = (1.0, 1.0),
+        oversampling: Tuple[int, int] = (1, 1),
         log_output: bool = False,
         open_dem_raster_kwargs: Dict[str, Any] = {},
         chunks: Optional[int] = 1024,
